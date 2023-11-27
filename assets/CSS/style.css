@@ -594,16 +594,24 @@ a {
     font-weight: 700;
 }
 
-.footer .list,
-.footer .desc {
+.footer .list {
     margin-top: 42px;
+}
+
+.footer .desc {
+    margin-top: 40px;
 }
 
 .footer .item {
     margin-top: 18px;
 }
 
+.footer .item-cpn {
+    margin-top: 21px;
+}
+
 .footer .item a,
+.footer .item-cpn a,
 footer .desc {
     color: #7a7a7e;
     font-size: 1.6rem;
@@ -613,9 +621,6 @@ footer .desc {
 
 .footer .desc {
     white-space: normal;
-    color: #7a7a7e;
-    font-size: 1.6rem;
-    font-weight: 400;
     line-height: 1.75; /* 175% */
 }
 
@@ -623,7 +628,7 @@ footer .social {
     margin-top: 40px;
     display: flex;
     align-items: center;
-    gap: 17px;
+    gap: 16px;
 }
 
 .footer .social-link {
