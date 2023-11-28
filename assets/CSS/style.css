@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -62,6 +67,9 @@ a {
     background: #e6f0ff;
     height: calc(100vh - 90px);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .navbar {
@@ -104,11 +112,7 @@ a {
 }
 
 /* Hero */
-.hero {
-    padding-top: 130px;
-}
-
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.5;
@@ -116,7 +120,7 @@ a {
     color: #687690;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     color: #000336;
     font-size: 6.2rem;
@@ -124,12 +128,12 @@ a {
     line-height: 1.19; /* 118.75% */
 }
 
-.hero .info {
+.hero-wrap .info {
     /* (559 / 1110) * 100% */
     width: 51%;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     font-size: 1.8rem;
     font-weight: 400;
