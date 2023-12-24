@@ -75,7 +75,6 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    /* padding-top: 38px;   */
     padding: 12px 0;
 }
 
@@ -125,7 +124,7 @@ a {
     color: #000336;
     font-size: 6.2rem;
     font-weight: 700;
-    line-height: 1.19; /* 118.75% */
+    line-height: 1.19;
 }
 
 .hero-wrap .info {
@@ -137,7 +136,7 @@ a {
     margin-top: 30px;
     font-size: 1.8rem;
     font-weight: 400;
-    line-height: 1.78; /* 177.778% */
+    line-height: 1.78;
     color: #5a6473;
 }
 
@@ -166,7 +165,7 @@ a {
 .clients .desc {
     font-size: 1.6rem;
     font-weight: 500;
-    line-height: 1.25; /* 125% */
+    line-height: 1.25;
     color: #7d8589;
 }
 
@@ -208,7 +207,7 @@ a {
     text-align: center;
     font-size: 3.5rem;
     font-weight: 600;
-    line-height: 1; /* 100% */
+    line-height: 1;
     position: relative;
 }
 .guides .sub-title::before {
@@ -231,7 +230,7 @@ a {
     text-align: center;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 1.88; /* 187.5% */
+    line-height: 1.88;
     color: #5a6473;
 }
 
@@ -250,7 +249,7 @@ a {
     margin-top: 26px;
     font-weight: 500;
     font-size: 2rem;
-    line-height: 1.1; /* 110% */
+    line-height: 1.1;
     color: #3b3c45;
 }
 
@@ -286,7 +285,7 @@ a {
 .featured .sub-title {
     font-size: 3.5rem;
     font-weight: 600;
-    line-height: 1; /* 100% */
+    line-height: 1;
     color: #000339;
 }
 
@@ -301,7 +300,7 @@ a {
     color: #5a6473;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 1.88; /* 187.5% */
+    line-height: 1.88;
 }
 
 .featured .link {
@@ -343,7 +342,7 @@ a {
 .featured .title a {
     font-size: 2rem;
     font-weight: 600;
-    line-height: 1.5; /* 100% */
+    line-height: 1.5;
     color: #000339;
 }
 
@@ -454,7 +453,6 @@ a {
 .stats-trend .avatar-block {
     margin-top: 26px;
     display: flex;
-    /* row: 16px column: 14px */
     gap: 16px 14px;
     flex-wrap: wrap;
 }
@@ -489,7 +487,7 @@ a {
     max-width: 100%;
     font-size: 3.5rem;
     font-weight: 600;
-    line-height: 1.29; /* 128.571% */
+    line-height: 1.29;
     color: #000339;
     position: relative;
 }
@@ -512,7 +510,7 @@ a {
     margin-top: 20px;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 1.9; /* 187.5% */
+    line-height: 1.9;
     color: #5a6473;
 }
 
@@ -560,7 +558,7 @@ a {
     color: #fff;
     font-size: 3.5rem;
     font-weight: 600;
-    line-height: 1.5; /* 100% */
+    line-height: 1.5;
 }
 
 .supscription .desc {
@@ -568,7 +566,7 @@ a {
     color: #fff;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 1.88; /* 187.5% */
+    line-height: 1.88;
 }
 
 .supscription .btn {
@@ -630,7 +628,7 @@ footer .desc {
 
 .footer .desc {
     white-space: normal;
-    line-height: 1.75; /* 175% */
+    line-height: 1.75;
 }
 
 footer .social {
