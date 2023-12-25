@@ -316,7 +316,8 @@ a {
 }
 
 .featured .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 70px;
 }
@@ -517,19 +518,19 @@ a {
 .stats .row-qty {
     margin-top: 110px;
     justify-content: space-between;
-    padding: 0 9px 0 32px;
+    padding: 0 32px;
 }
 
 .stats .qty {
     color: #000;
-    font-size: 64px;
+    font-size: 6.4rem;
     font-weight: 600;
 }
 
 .stats .qty-desc {
     margin-top: 24px;
     color: #7b8087;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 500;
 }
 
@@ -549,7 +550,7 @@ a {
 }
 
 .supscription .info {
-    padding: 0 90px 0 80px;
+    padding: 0 90px;
     width: 671px;
     max-width: 100%;
 }
@@ -595,7 +596,7 @@ a {
 }
 
 .footer .row-top {
-    gap: 185px;
+    column-gap: 185px;
 }
 
 .footer .heading {
@@ -644,7 +645,7 @@ footer .social {
 }
 
 .footer .row-bottom {
-    margin-top: 81px;
+    margin-top: 80px;
     justify-content: space-between;
     align-items: flex-end;
 }
