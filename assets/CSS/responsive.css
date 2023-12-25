@@ -298,4 +298,9 @@
     .row-desc .desc:first-child {
         text-align: center;
     }
+
+    .featured .sub-title {
+        font-size: 3rem;
+        text-align: center;
+    }
 }
