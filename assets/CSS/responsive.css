@@ -280,3 +280,22 @@
         row-gap: 30px;
     }
 }
+
+/* Mobile small */
+@media screen and (max-width: 576px) {
+    .show-on-mobile {
+        display: none;
+    }
+
+    .content {
+        max-width: calc(100% - 40px);
+    }
+
+    .hero-wrap .title {
+        font-size: 4.5rem;
+    }
+
+    .row-desc .desc:first-child {
+        text-align: center;
+    }
+}
